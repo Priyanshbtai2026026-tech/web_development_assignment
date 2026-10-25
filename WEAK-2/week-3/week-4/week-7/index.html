@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 7 - Flex Layout - Priyansh</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: Arial; background:#eef2f7; }
+header { background:#0d47a1; color:white; padding:15px; text-align:center; }
+.container { display:flex; flex-wrap:wrap; gap:20px; padding:20px; justify-content:center; }
+.box { background:white; width:250px; padding:15px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.2); text-align:center; }
+.box img { width:100%; border-radius:8px; }
+.box h3 { margin:10px 0; color:#0d47a1; }
+footer { background:#0d47a1; color:white; text-align:center; padding:10px; margin-top:20px; }
+@media(max-width:600px){ .box{ width:100%; } }
+</style>
+</head>
+<body>
+<header><h1>My Projects Gallery - Priyansh</h1></header>
+<div class="container">
+<div class="box">
+<img src="https://via.placeholder.com/250x150" alt="Project 1">
+<h3>Week 2 Resume</h3>
+<p>Simple HTML resume using lists.</p>
+</div>
+<div class="box">
+<img src="https://via.placeholder.com/250x150" alt="Project 2">
+<h3>Week 4 Form</h3>
+<p>Club registration form with table.</p>
+</div>
+<div class="box">
+<img src="https://via.placeholder.com/250x150" alt="Project 3">
+<h3>Week 6 CSS</h3>
+<p>Styled cards with CSS.</p>
+</div>
+</div>
+<footer>Week 7 Assignment by Priyansh Mishra</footer>
+</body>
+</html>
